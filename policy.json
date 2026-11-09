@@ -1,0 +1,39 @@
+{
+    "$schema": "https://github.com/glitchr-omnisense/contracts/blob/1.x/resources/usage-policy.schema.json",
+    "provider": "transitous",
+    "rateLimits": [
+        {
+            "max": 720,
+            "window": "day",
+            "scope": "application",
+            "operations": ["journeys"],
+            "note": "Transitous sets no hard cap: more than 720 requests in 24 hours of /plan (journeys), /one-to-many or /one-to-all is heavy use, to be agreed with the project first (its Matrix channel)."
+        }
+    ],
+    "rights": {
+        "commercial": "forbidden",
+        "openSourceRequired": true,
+        "caching": {"permission": "unknown", "maxTtl": null},
+        "storage": "unknown",
+        "redistribution": "unknown",
+        "attribution": {
+            "required": true,
+            "text": "Transitous (https://transitous.org/sources/) and OpenStreetMap contributors",
+            "url": "https://transitous.org/sources/",
+            "where": ["display", "map"]
+        },
+        "licence": "ODbL-1.0"
+    },
+    "requirements": {
+        "key": false,
+        "userAgent": {"required": true, "pattern": "~/.*[(;@]|[(;@].*/~"}
+    },
+    "provenance": {
+        "terms": "https://transitous.org/api/",
+        "policy": "https://transitous.org/api/",
+        "verifiedAt": "2026-11-10",
+        "declaredBy": "maintainer",
+        "contact": "https://matrix.to/#/%23transitous:matrix.spline.de",
+        "notes": "For open-source, non-commercial projects light on resources; commercial use is not allowed (charities may ask for an exception). Every request names the application, its version and a contact in its User-Agent (a Referer in a browser). Link https://transitous.org/sources/ in a visible place, follow each source's conditions and OpenStreetMap's attribution guidelines. Caching and storage are not addressed: the project points to its dataset downloads rather than scraping the API."
+    }
+}

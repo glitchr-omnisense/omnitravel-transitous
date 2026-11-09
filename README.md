@@ -29,7 +29,7 @@ foreach ($transitous->departures(new DepartureQuery($stop->id, limit: 5)) as $de
 Options: `user_agent` (required), `base_uri` (`https://api.transitous.org`; another MOTIS 2 server),
 `language`, `timeout`.
 
-## Transitous' usage policy, as read on 2026-11-09
+## Transitous' usage policy, as read on 2026-11-10
 
 [transitous.org/api](https://transitous.org/api/): the API is for open-source, non-commercial
 projects that are light on its resources, on a best-effort basis.
@@ -43,5 +43,12 @@ projects that are light on its resources, on a best-effort basis.
   source's conditions, and OpenStreetMap's attribution guidelines
   (`Capabilities::$attribution`, `$terms`).
 - Commercial use is not allowed; the staging server is not for applications.
+
+The package declares it as data, in [policy.json](policy.json) (omnisense/contracts' usage
+policy, `verifiedAt` 2026-11-10): through omnitravel's registry, the 721st journey of a day is
+refused before it reaches Transitous (`UsageLimitReachedException`), a 429 and its `Retry-After`
+hold every call until the wait is over, and a site may lower the share
+(`'policy' => ['rateLimits' => [['max' => 600, 'window' => 'day', 'operations' => ['journeys']]]]`),
+never raise it. A site that says it is commercial (`'usage' => ['commercial' => true]`) is refused.
 
 The manual: [docs/index.md](docs/index.md). MIT.

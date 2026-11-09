@@ -34,7 +34,11 @@ The factory takes the application's HTTP client (`?HttpClientInterface`), and ma
 `lineStops()` and `operators()` throw `NotSupportedException`. `keyless`, no `countries` (anywhere a
 feed covers), `licence` ODbL-1.0 (OpenStreetMap's; each feed has its own, listed on the sources
 page), `attribution` "Transitous (https://transitous.org/sources/) and OpenStreetMap contributors",
-`terms` the API policy, the sources page and OpenStreetMap's copyright page.
+`terms` the API policy, the sources page and OpenStreetMap's copyright page. `policy`: the usage
+policy of [policy.json](../policy.json) (`TransitousProvider::usagePolicy()`): 720 journeys a day
+(the operation `journeys`, Transitous' `/plan`), commercial use forbidden, open source required,
+the sources page credited on the display and the map, a User-Agent with a version and a contact;
+caching and storage unknown (the policy does not address them).
 
 ## The calls
 

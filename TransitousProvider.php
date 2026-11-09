@@ -2,6 +2,8 @@
 
 namespace Omnitravel\Transitous;
 
+use Omnisense\Contracts\Policy\DeclaresUsagePolicyInterface;
+use Omnisense\Contracts\Policy\UsagePolicy;
 use Omnitravel\Capabilities;
 use Omnitravel\Exception\NotSupportedException;
 use Omnitravel\Http\Data;
@@ -32,10 +34,17 @@ use Omnitravel\TimetablesInterface;
  * Stop identifiers are MOTIS's: the feed's own prefixed with its dataset
  * tag ("fr-angers-..._1RALL"). Transitous keeps no list of a network's
  * lines: lines(), line(), lineStops() and operators() are not supported.
+ * Its usage policy is policy.json, beside this class (POLICY): the guard
+ * counts 720 journeys a day, the rights and the User-Agent the policy asks.
  */
-final class TransitousProvider implements TimetablesInterface, ItinerariesInterface, NetworkInterface
+final class TransitousProvider implements TimetablesInterface, ItinerariesInterface, NetworkInterface, DeclaresUsagePolicyInterface
 {
+    /** Transitous' usage policy, as https://transitous.org/api/ read on the day it says (provenance.verifiedAt). */
+    public const POLICY = __DIR__.'/policy.json';
+
     public const ATTRIBUTION = 'Transitous (https://transitous.org/sources/) and OpenStreetMap contributors';
+
+    private static ?UsagePolicy $policy = null;
 
     public function __construct(
         private readonly JsonClient $json,
@@ -54,6 +63,11 @@ final class TransitousProvider implements TimetablesInterface, ItinerariesInterf
         return 'Transitous';
     }
 
+    public function usagePolicy(): UsagePolicy
+    {
+        return self::$policy ??= UsagePolicy::fromFile(self::POLICY);
+    }
+
     public function capabilities(): Capabilities
     {
         return new Capabilities(
@@ -70,6 +84,7 @@ final class TransitousProvider implements TimetablesInterface, ItinerariesInterf
             licence: 'ODbL-1.0',
             terms: ['https://transitous.org/api/', 'https://transitous.org/sources/', 'https://www.openstreetmap.org/copyright'],
             keyless: true,
+            policy: $this->usagePolicy(),
         );
     }
 

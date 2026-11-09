@@ -16,7 +16,9 @@ use Symfony\Contracts\HttpClient\HttpClientInterface;
  * its operator, "MySite/1.0 (https://example.org; travel@example.org)"),
  * base_uri (https://api.transitous.org; a MOTIS 2 server of one's own),
  * language (the names' language, as OpenStreetMap tags it: "fr"; none by
- * default), timeout (seconds; the HTTP client's own when empty).
+ * default), timeout (seconds; the HTTP client's own when empty); policy (a
+ * tightening of Transitous' usage policy: a lower daily share of journeys...),
+ * usage (commercial, open_source: a commercial site is refused at once).
  */
 final class TransitousFactory extends ProviderFactory
 {
@@ -51,6 +53,6 @@ final class TransitousFactory extends ProviderFactory
             $http = $http->withOptions(['timeout' => (float) $timeout]);
         }
 
-        return new TransitousProvider(new JsonClient($http, 'Transitous', ['User-Agent' => $agent, 'Accept' => 'application/json']), $base, $c->string('language'));
+        return new TransitousProvider(new JsonClient($http, 'Transitous', ['User-Agent' => $agent, 'Accept' => 'application/json'], $c->backoff()), $base, $c->string('language'));
     }
 }
