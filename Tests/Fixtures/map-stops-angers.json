@@ -1,0 +1,84 @@
+[
+ {
+  "name": "Ralliement",
+  "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_2RALL",
+  "lat": 47.471222,
+  "lon": -0.5516010000000001,
+  "tz": "Europe/Paris",
+  "stopCode": "2RALL",
+  "modes": [
+   "TRAM"
+  ]
+ },
+ {
+  "name": "Ralliement",
+  "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_1RALL",
+  "lat": 47.47113,
+  "lon": -0.551664,
+  "tz": "Europe/Paris",
+  "stopCode": "1RALL",
+  "modes": [
+   "TRAM"
+  ]
+ },
+ {
+  "name": "Lorraine",
+  "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_LOHUIT",
+  "lat": 47.470222,
+  "lon": -0.5471490000000001,
+  "tz": "Europe/Paris",
+  "modes": [
+   "BUS"
+  ]
+ },
+ {
+  "name": "Stade Raymond Kopa",
+  "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_KOPA-E",
+  "lat": 47.461425999999996,
+  "lon": -0.531667,
+  "tz": "Europe/Paris",
+  "modes": [
+   "BUS"
+  ]
+ },
+ {
+  "name": "Foch-Maison Bleue",
+  "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_FO-LOR-R",
+  "lat": 47.469677,
+  "lon": -0.5489890000000001,
+  "tz": "Europe/Paris",
+  "modes": [
+   "BUS"
+  ]
+ },
+ {
+  "name": "Saumuroise",
+  "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_SAUMUR-E",
+  "lat": 47.456801999999996,
+  "lon": -0.531904,
+  "tz": "Europe/Paris",
+  "modes": [
+   "BUS"
+  ]
+ },
+ {
+  "name": "République",
+  "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_REPUBLIQ",
+  "lat": 47.47100399999999,
+  "lon": -0.5539930000000001,
+  "tz": "Europe/Paris",
+  "modes": [
+   "BUS"
+  ]
+ },
+ {
+  "name": "Coubertin",
+  "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_PCOUBE-E",
+  "lat": 47.462452000000006,
+  "lon": -0.532314,
+  "tz": "Europe/Paris",
+  "modes": [
+   "BUS"
+  ]
+ }
+]

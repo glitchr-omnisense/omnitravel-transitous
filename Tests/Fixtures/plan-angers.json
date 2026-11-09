@@ -1,0 +1,835 @@
+{
+ "from": {
+  "name": "START",
+  "lat": 47.4712,
+  "lon": -0.5518
+ },
+ "to": {
+  "name": "END",
+  "lat": 47.4608,
+  "lon": -0.5306
+ },
+ "direct": [
+  {
+   "duration": 1776,
+   "startTime": "2026-11-09T12:34:00Z",
+   "endTime": "2026-11-09T13:03:00Z",
+   "transfers": 0,
+   "id": "",
+   "legs": [
+    {
+     "mode": "WALK",
+     "from": {
+      "name": "START",
+      "lat": 47.4712,
+      "lon": -0.5518,
+      "departure": "2026-11-09T12:34:00Z",
+      "scheduledDeparture": "2026-11-09T12:34:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 47.4608,
+      "lon": -0.5306,
+      "arrival": "2026-11-09T13:03:00Z",
+      "scheduledArrival": "2026-11-09T13:03:00Z"
+     },
+     "duration": 1776,
+     "startTime": "2026-11-09T12:34:00Z",
+     "endTime": "2026-11-09T13:03:00Z",
+     "scheduledStartTime": "2026-11-09T12:34:00Z",
+     "scheduledEndTime": "2026-11-09T13:03:00Z",
+     "realTime": false,
+     "scheduled": false,
+     "distance": 2103.0,
+     "legGeometry": {
+      "points": "_glpyAdrt`@bMgM??x@H??fCuD??n@u@h@m@??\\a@~DcG??`BcCjL_T??b@y@??f@_A??|IeP??P]??R]??f@}@??hQc\\??`@u@??dAmB??dQs[bD_FlAYdA???bIjL??Zk@??^w@??Ra@??Rc@??Te@??P_@??f@cA??P_@??Vg@??Pa@??Xk@??Zq@??f@iA??lNlS\\ZZF??zEaJvEs[JwBV_TLwBxCcT??~Iuo@zA_F??dK_]jDyJ??Es@??DO??T_A??TaA??JU??NDP@HG??jTmh@??dEaK??PP??Z^??z@z@??l@p@??PP??h@sATYZKX@XNb@\\??FQ??\\_A??^iA??HS??[]GYA[@]H[\\g@??dDoFzEiGnAoD??EoC??DiA??Jo@??J}@??Fo@??p@cF??Y}@??^eAjJqNHy@p@cAb@CjReYvBuCdFkGlGaI??lAaBvBeE??tUkf@??~AcD??HO??dLeU??rE_J??~JkSxHyOhAgClGuS??^kA??hE_OxHoY??bE_P??BK??|AcFLSPKJE??HW??^qA??d@eB??DM??Gc@B_@J_@??~B}IbEmOzGqU??hE{N??FWNMT???DS??^cA??Zy@??HW??GQAU@YFS|J_]??L[RQLA`@H??BS??T{@??T}@??Po@??KgBXiA??b@yA??bAgDfGaS??l@mBzCyJ??FMLI??Jc@??b@eB??V_A??Ro@NI??@_ALs@Vw@??`AaDb@}B`B_KxDsV??FQHKHE??Jg@??XaB??XgB??PA??CqAAsAJmA`@iC??|@eG??pB}L??D[??fDqSv@aE??P{@lD{NbBmG??Pq@HQLMZG??H_@??^uA??b@iA??NW??AW@WBK??Ng@vG{RPg@??`AuC??jAwCpOmd@~AcGjAmE??pDeNpBoKhCeM\\aA??Ra@VYZM\\EfCC??@cA??@WHkC??J{D??`@mC??PsGT{BnIcb@lHe`@zDaWd@oI",
+      "precision": 6,
+      "length": 359
+     }
+    }
+   ]
+  }
+ ],
+ "itineraries": [
+  {
+   "duration": 900,
+   "startTime": "2026-11-09T12:38:00Z",
+   "endTime": "2026-11-09T12:53:00Z",
+   "transfers": 0,
+   "id": "CnkhB/AWSFC8R0Apf9k9eVio4b8yP2ZyLWFuZ2Vycy1sb2lyZS1tZXRyb3BvbGUtcmVzZWF1LWlyaWdvLWd0ZnMtZ3Rmcy1ydC1zaXJpX0xPSFVJVDkL7gc8MLxHQEFYQKGePoLhv0io/cbXBlDMgMfXBloEV0FMS2ABCo0CCgE4Ek8yMDI2MTEwOV8xMzowNV9mci1hbmdlcnMtbG9pcmUtbWV0cm9wb2xlLXJlc2VhdS1pcmlnby1ndGZzLWd0ZnMtcnQtc2lyaV82OTA2NDc3Gj9mci1hbmdlcnMtbG9pcmUtbWV0cm9wb2xlLXJlc2VhdS1pcmlnby1ndGZzLWd0ZnMtcnQtc2lyaV9MT0hVSVQhC+4HPDC8R0ApWEChnj6C4b8yP2ZyLWFuZ2Vycy1sb2lyZS1tZXRyb3BvbGUtcmVzZWF1LWlyaWdvLWd0ZnMtZ3Rmcy1ydC1zaXJpX0tPUEEtRTkVw9UBELtHQEELmSuDagPhv0jMgMfXBlDwg8fXBloDQlVTYAEKeRo/ZnItYW5nZXJzLWxvaXJlLW1ldHJvcG9sZS1yZXNlYXUtaXJpZ28tZ3Rmcy1ndGZzLXJ0LXNpcmlfS09QQS1FIRXD1QEQu0dAKQuZK4NqA+G/OZf/kH77ukdAQUI+6Nms+uC/SLSDx9cGUKyEx9cGWgRXQUxLYAE=",
+   "legs": [
+    {
+     "mode": "WALK",
+     "from": {
+      "name": "START",
+      "lat": 47.4712,
+      "lon": -0.5518,
+      "tz": "Europe/Paris",
+      "departure": "2026-11-09T12:38:00Z",
+      "scheduledDeparture": "2026-11-09T12:38:00Z"
+     },
+     "to": {
+      "name": "Lorraine",
+      "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_LOHUIT",
+      "lat": 47.470222,
+      "lon": -0.5471490000000001,
+      "tz": "Europe/Paris",
+      "arrival": "2026-11-09T12:45:00Z",
+      "scheduledArrival": "2026-11-09T12:45:00Z",
+      "stopCode": "5526",
+      "modes": [
+       "BUS"
+      ]
+     },
+     "duration": 420,
+     "startTime": "2026-11-09T12:38:00Z",
+     "endTime": "2026-11-09T12:45:00Z",
+     "scheduledStartTime": "2026-11-09T12:38:00Z",
+     "scheduledEndTime": "2026-11-09T12:45:00Z",
+     "realTime": false,
+     "scheduled": false,
+     "distance": 453.0,
+     "legGeometry": {
+      "points": "_glpyAdrt`@bMgM??x@H??fCuD??EO??Sm@??Oe@??M_@??Ma@??Qi@??s@o@??uDoD??EyC??AwA??LeO?iGLia@I_ASq@qLoR_CiE??S[??|Vcc@??\\k@??|@uA??bRqY??~Pe\\??Ya@??_CuC??\\_A??x@eB??b@{@??Vk@??NY??f@eA??Ra@??Xk@??b@}@??`@{@??b@aA??uBgCEg@??_@wB??I}@???m@??PO??f@W??^O??YqBAgAHuAfCgK",
+      "precision": 6,
+      "length": 92
+     }
+    },
+    {
+     "mode": "BUS",
+     "from": {
+      "name": "Lorraine",
+      "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_LOHUIT",
+      "lat": 47.470222,
+      "lon": -0.5471490000000001,
+      "tz": "Europe/Paris",
+      "departure": "2026-11-09T12:45:00Z",
+      "scheduledDeparture": "2026-11-09T12:45:00Z",
+      "stopCode": "5526",
+      "cancelled": false,
+      "modes": [
+       "BUS"
+      ]
+     },
+     "to": {
+      "name": "Stade Raymond Kopa",
+      "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_KOPA-E",
+      "lat": 47.461425999999996,
+      "lon": -0.531667,
+      "tz": "Europe/Paris",
+      "arrival": "2026-11-09T12:51:00Z",
+      "scheduledArrival": "2026-11-09T12:52:00Z",
+      "stopCode": "KOPA-E",
+      "cancelled": false,
+      "modes": [
+       "BUS"
+      ]
+     },
+     "duration": 360,
+     "startTime": "2026-11-09T12:45:00Z",
+     "endTime": "2026-11-09T12:51:00Z",
+     "scheduledStartTime": "2026-11-09T12:45:00Z",
+     "scheduledEndTime": "2026-11-09T12:52:00Z",
+     "realTime": true,
+     "scheduled": true,
+     "interlineWithPreviousLeg": false,
+     "headsign": "SORGES",
+     "routeId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_08",
+     "directionId": "0",
+     "routeColor": "e50076",
+     "routeTextColor": "ffffff",
+     "routeType": 3,
+     "agencyName": "IRIGO",
+     "agencyFareUrl": "",
+     "agencyId": "IRIGO",
+     "tripId": "20261109_13:05_fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_6906477",
+     "routeShortName": "8",
+     "routeLongName": "BEAUCOUZÉ Haute Roche - LES PONTS-DE-CÉ Moulin Marcille / Sorges",
+     "tripShortName": "",
+     "displayName": "8",
+     "cancelled": false,
+     "intermediateStops": [
+      {
+       "name": "Place du Lycée",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_PLDULY-E",
+       "lat": 47.466908000000004,
+       "lon": -0.544598,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T12:47:00Z",
+       "departure": "2026-11-09T12:47:00Z",
+       "scheduledArrival": "2026-11-09T12:47:00Z",
+       "scheduledDeparture": "2026-11-09T12:47:00Z",
+       "stopCode": "29899",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      },
+      {
+       "name": "St-Joseph",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_STJOS-E",
+       "lat": 47.464783,
+       "lon": -0.541133,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T12:48:00Z",
+       "departure": "2026-11-09T12:48:00Z",
+       "scheduledArrival": "2026-11-09T12:48:00Z",
+       "scheduledDeparture": "2026-11-09T12:48:00Z",
+       "stopCode": "14109",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      },
+      {
+       "name": "Anne Frank",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_ANFRAN-E",
+       "lat": 47.463466999999994,
+       "lon": -0.537766,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T12:50:00Z",
+       "departure": "2026-11-09T12:50:00Z",
+       "scheduledArrival": "2026-11-09T12:50:00Z",
+       "scheduledDeparture": "2026-11-09T12:50:00Z",
+       "stopCode": "7909",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      },
+      {
+       "name": "Desmazières",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_DESMAZ-E",
+       "lat": 47.462646,
+       "lon": -0.535002,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T12:50:00Z",
+       "departure": "2026-11-09T12:50:00Z",
+       "scheduledArrival": "2026-11-09T12:50:00Z",
+       "scheduledDeparture": "2026-11-09T12:50:00Z",
+       "stopCode": "15428",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      }
+     ],
+     "legGeometry": {
+      "points": "{gjpyAxsk`@_BaAlBoHrQgw@z@eCt@mA~HgFpCmElDuEzAuEbAuD~a@tWny@zj@fS|L~StMoBqH_AsJcA}PsBi]_@gEq@_ChDyH`AeBrAeClD_DzB}J`B}J|AaGfCkHbFiH`b@cm@hGeJjAsAlAwAlOwZdOsYvDcHdTue@xGaNdKmXhBkGHUfM{c@jAiDrHqX~BgJzEqQ|Ji]dEiNnIuZvDkLdJaZ|J_\\hB_HjAqG|@_Fz@aGjByKhBkLbBuLzEo\\`CiNpBsIjAiF|AiGnBuHbGaQd@oAx_@}lArDcMj@aDdAmFTeDfBuIfAkEjBkMnAuGjHi[bAr@",
+      "precision": 6,
+      "length": 79
+     }
+    },
+    {
+     "mode": "WALK",
+     "from": {
+      "name": "Stade Raymond Kopa",
+      "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_KOPA-E",
+      "lat": 47.461425999999996,
+      "lon": -0.531667,
+      "tz": "Europe/Paris",
+      "arrival": "2026-11-09T12:51:00Z",
+      "departure": "2026-11-09T12:51:00Z",
+      "scheduledArrival": "2026-11-09T12:52:00Z",
+      "scheduledDeparture": "2026-11-09T12:51:00Z",
+      "stopCode": "KOPA-E",
+      "cancelled": false,
+      "modes": [
+       "BUS"
+      ]
+     },
+     "to": {
+      "name": "END",
+      "lat": 47.4608,
+      "lon": -0.5306,
+      "tz": "Europe/Paris",
+      "arrival": "2026-11-09T12:53:00Z",
+      "scheduledArrival": "2026-11-09T12:53:00Z"
+     },
+     "duration": 120,
+     "startTime": "2026-11-09T12:51:00Z",
+     "endTime": "2026-11-09T12:53:00Z",
+     "scheduledStartTime": "2026-11-09T12:51:00Z",
+     "scheduledEndTime": "2026-11-09T12:53:00Z",
+     "realTime": false,
+     "scheduled": false,
+     "distance": 93.0,
+     "legGeometry": {
+      "points": "}`yoyA|lm_@j@qClHe`@zDaWd@oI",
+      "precision": 6,
+      "length": 5
+     }
+    }
+   ]
+  },
+  {
+   "duration": 1500,
+   "startTime": "2026-11-09T12:44:00Z",
+   "endTime": "2026-11-09T13:09:00Z",
+   "transfers": 0,
+   "id": "CnshB/AWSFC8R0Apf9k9eVio4b8yQWZyLWFuZ2Vycy1sb2lyZS1tZXRyb3BvbGUtcmVzZWF1LWlyaWdvLWd0ZnMtZ3Rmcy1ydC1zaXJpX0ZPLUxPUi1SOXlXPWAevEdAQcujG2FRkeG/SJCAx9cGULyCx9cGWgRXQUxLYAEKkQIKATESTzIwMjYxMTA5XzEzOjQ4X2ZyLWFuZ2Vycy1sb2lyZS1tZXRyb3BvbGUtcmVzZWF1LWlyaWdvLWd0ZnMtZ3Rmcy1ydC1zaXJpXzY5MDY5NDYaQWZyLWFuZ2Vycy1sb2lyZS1tZXRyb3BvbGUtcmVzZWF1LWlyaWdvLWd0ZnMtZ3Rmcy1ydC1zaXJpX0ZPLUxPUi1SIXlXPWAevEdAKcujG2FRkeG/MkFmci1hbmdlcnMtbG9pcmUtbWV0cm9wb2xlLXJlc2VhdS1pcmlnby1ndGZzLWd0ZnMtcnQtc2lyaV9TQVVNVVItRTmqX+l8eLpHQEEZkpOJWwXhv0iAgsfXBlDYhsfXBloDQlVTYAEKexpBZnItYW5nZXJzLWxvaXJlLW1ldHJvcG9sZS1yZXNlYXUtaXJpZ28tZ3Rmcy1ndGZzLXJ0LXNpcmlfU0FVTVVSLUUhql/pfHi6R0ApGZKTiVsF4b85l/+Qfvu6R0BBQj7o2az64L9IlIfH1wZQ7IvH1wZaBFdBTEtgAQ==",
+   "legs": [
+    {
+     "mode": "WALK",
+     "from": {
+      "name": "START",
+      "lat": 47.4712,
+      "lon": -0.5518,
+      "tz": "Europe/Paris",
+      "departure": "2026-11-09T12:44:00Z",
+      "scheduledDeparture": "2026-11-09T12:44:00Z"
+     },
+     "to": {
+      "name": "Foch-Maison Bleue",
+      "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_FO-LOR-R",
+      "lat": 47.469677,
+      "lon": -0.5489890000000001,
+      "tz": "Europe/Paris",
+      "arrival": "2026-11-09T12:49:00Z",
+      "scheduledArrival": "2026-11-09T12:49:00Z",
+      "stopCode": "170",
+      "modes": [
+       "TRAM",
+       "BUS"
+      ]
+     },
+     "duration": 300,
+     "startTime": "2026-11-09T12:44:00Z",
+     "endTime": "2026-11-09T12:49:00Z",
+     "scheduledStartTime": "2026-11-09T12:44:00Z",
+     "scheduledEndTime": "2026-11-09T12:49:00Z",
+     "realTime": false,
+     "scheduled": false,
+     "distance": 296.0,
+     "legGeometry": {
+      "points": "_glpyAdrt`@bMgM??x@H??fCuD??EO??Sm@??Oe@??M_@??Ma@??Qi@??PMd@m@??\\e@zQs[hCyE??vK}R??rVcd@??vAgC??hR{]dBgD??wCuE??oA}@OU",
+      "precision": 6,
+      "length": 39
+     }
+    },
+    {
+     "mode": "BUS",
+     "from": {
+      "name": "Foch-Maison Bleue",
+      "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_FO-LOR-R",
+      "lat": 47.469677,
+      "lon": -0.5489890000000001,
+      "tz": "Europe/Paris",
+      "departure": "2026-11-09T12:49:00Z",
+      "scheduledDeparture": "2026-11-09T12:48:00Z",
+      "stopCode": "170",
+      "cancelled": false,
+      "modes": [
+       "TRAM",
+       "BUS"
+      ]
+     },
+     "to": {
+      "name": "Saumuroise",
+      "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_SAUMUR-E",
+      "lat": 47.456801999999996,
+      "lon": -0.531904,
+      "tz": "Europe/Paris",
+      "arrival": "2026-11-09T12:59:00Z",
+      "scheduledArrival": "2026-11-09T12:58:00Z",
+      "stopCode": "2926",
+      "cancelled": false,
+      "modes": [
+       "BUS"
+      ]
+     },
+     "duration": 600,
+     "startTime": "2026-11-09T12:49:00Z",
+     "endTime": "2026-11-09T12:59:00Z",
+     "scheduledStartTime": "2026-11-09T12:48:00Z",
+     "scheduledEndTime": "2026-11-09T12:58:00Z",
+     "realTime": true,
+     "scheduled": true,
+     "interlineWithPreviousLeg": false,
+     "headsign": "TRÉLAZÉ Quantinière",
+     "routeId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_01",
+     "directionId": "1",
+     "routeColor": "008e8c",
+     "routeTextColor": "ffffff",
+     "routeType": 3,
+     "agencyName": "IRIGO",
+     "agencyFareUrl": "",
+     "agencyId": "IRIGO",
+     "tripId": "20261109_13:48_fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_6906946",
+     "routeShortName": "1",
+     "routeLongName": "TRÉLAZÉ Quantinière - ANGERS Lorraine",
+     "tripShortName": "",
+     "displayName": "1",
+     "cancelled": false,
+     "intermediateStops": [
+      {
+       "name": "Foch-St-Aubin",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_STAUBI-E",
+       "lat": 47.468147,
+       "lon": -0.5510440000000001,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T12:50:00Z",
+       "departure": "2026-11-09T12:50:00Z",
+       "scheduledArrival": "2026-11-09T12:49:00Z",
+       "scheduledDeparture": "2026-11-09T12:49:00Z",
+       "stopCode": "31700",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      },
+      {
+       "name": "Foch-Haras",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_HARAS-E",
+       "lat": 47.46725,
+       "lon": -0.552234,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T12:51:00Z",
+       "departure": "2026-11-09T12:51:00Z",
+       "scheduledArrival": "2026-11-09T12:50:00Z",
+       "scheduledDeparture": "2026-11-09T12:50:00Z",
+       "stopCode": "3412",
+       "cancelled": false,
+       "modes": [
+        "TRAM",
+        "BUS"
+       ]
+      },
+      {
+       "name": "André Leroy",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_ANLERO-E",
+       "lat": 47.464625999999996,
+       "lon": -0.5490280000000001,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T12:54:00Z",
+       "departure": "2026-11-09T12:54:00Z",
+       "scheduledArrival": "2026-11-09T12:53:00Z",
+       "scheduledDeparture": "2026-11-09T12:53:00Z",
+       "stopCode": "14800",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      },
+      {
+       "name": "Michelet",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_MICHEL-E",
+       "lat": 47.46286,
+       "lon": -0.544243,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T12:55:00Z",
+       "departure": "2026-11-09T12:55:00Z",
+       "scheduledArrival": "2026-11-09T12:54:00Z",
+       "scheduledDeparture": "2026-11-09T12:54:00Z",
+       "stopCode": "5053",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      },
+      {
+       "name": "Bourgonnier",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_BOURGO-E",
+       "lat": 47.46161,
+       "lon": -0.5411950000000001,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T12:56:00Z",
+       "departure": "2026-11-09T12:56:00Z",
+       "scheduledArrival": "2026-11-09T12:55:00Z",
+       "scheduledDeparture": "2026-11-09T12:55:00Z",
+       "stopCode": "BOURGO-E",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      },
+      {
+       "name": "Volney",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_VOLNEY-E",
+       "lat": 47.460567,
+       "lon": -0.5386390000000001,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T12:56:00Z",
+       "departure": "2026-11-09T12:56:00Z",
+       "scheduledArrival": "2026-11-09T12:55:00Z",
+       "scheduledDeparture": "2026-11-09T12:55:00Z",
+       "stopCode": "29618",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      },
+      {
+       "name": "Madeleine",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_MADELE-E",
+       "lat": 47.459044999999996,
+       "lon": -0.535589,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T12:57:00Z",
+       "departure": "2026-11-09T12:57:00Z",
+       "scheduledArrival": "2026-11-09T12:56:00Z",
+       "scheduledDeparture": "2026-11-09T12:56:00Z",
+       "stopCode": "10442",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      }
+     ],
+     "legGeometry": {
+      "points": "yeipyAxfo`@|@cBjIvL`JhN`KrOhDfFp^bi@`K~ObLhOvIlLxZhd@nPxVzFxIzXna@rIzJvChD~BmGMoBlIyVnAkIp@iK`Msa@n^usAlZadAhAiDnAqEnA`@dADp@A`AObA[jAiA\\aARa@`@iCGsA?sAEmASuBSs@Sm@_@o@}@{@dCyH~EmP~d@gyAni@ygB|BuGbQqk@`H_UzLcb@|Xo{@`Rmm@z@aDrGiTpV{x@rLw_@tTat@tEwNzJk\\`CaJ`CaJbBsAzAkG`HuUjFeQvAkEfA}CrAkCrF_JfIyMfDcGrU}d@~NyYnT{a@bZoi@nQs\\~CeIf@yCvBgDrb@oy@lJ}PdAdB",
+      "precision": 6,
+      "length": 83
+     }
+    },
+    {
+     "mode": "WALK",
+     "from": {
+      "name": "Saumuroise",
+      "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_SAUMUR-E",
+      "lat": 47.456801999999996,
+      "lon": -0.531904,
+      "tz": "Europe/Paris",
+      "arrival": "2026-11-09T12:59:00Z",
+      "departure": "2026-11-09T12:59:00Z",
+      "scheduledArrival": "2026-11-09T12:58:00Z",
+      "scheduledDeparture": "2026-11-09T12:59:00Z",
+      "stopCode": "2926",
+      "cancelled": false,
+      "modes": [
+       "BUS"
+      ]
+     },
+     "to": {
+      "name": "END",
+      "lat": 47.4608,
+      "lon": -0.5306,
+      "tz": "Europe/Paris",
+      "arrival": "2026-11-09T13:09:00Z",
+      "scheduledArrival": "2026-11-09T13:09:00Z"
+     },
+     "duration": 600,
+     "startTime": "2026-11-09T12:59:00Z",
+     "endTime": "2026-11-09T13:09:00Z",
+     "scheduledStartTime": "2026-11-09T12:59:00Z",
+     "scheduledEndTime": "2026-11-09T13:09:00Z",
+     "realTime": false,
+     "scheduled": false,
+     "distance": 667.0,
+     "legGeometry": {
+      "points": "q`poyAv{m_@aHvM??c@s@??o@aA??o@_A??a@q@??QXSFE???QGo@_AkG_JyFkI??sAuBmA}@oJaHcFoDm@o@Uc@Og@QB??mBuB??wB_C??Gc@??i@O_@U[]iF}ImHaNkKsSuF{K??KU??KO??g@m@??a@g@??MM??GG??OZ??_@|@??]t@??KV??iBsB??mL{MkNaLeBcCq@o@sTmFiBY??gMaBcALuFiA??wEqAmI_FwJcCuJyBiIoBoD{@WA??SJKJKRGX??{Cjg@kD~k@YjF",
+      "precision": 6,
+      "length": 92
+     }
+    }
+   ]
+  },
+  {
+   "duration": 1260,
+   "startTime": "2026-11-09T12:51:00Z",
+   "endTime": "2026-11-09T13:12:00Z",
+   "transfers": 0,
+   "id": "CnshB/AWSFC8R0Apf9k9eVio4b8yQWZyLWFuZ2Vycy1sb2lyZS1tZXRyb3BvbGUtcmVzZWF1LWlyaWdvLWd0ZnMtZ3Rmcy1ydC1zaXJpX1JFUFVCTElROYAk7NtJvEdAQU/QJodPuuG/SLSDx9cGUKSFx9cGWgRXQUxLYAEKkQIKATcSTzIwMjYxMTA5XzEzOjA4X2ZyLWFuZ2Vycy1sb2lyZS1tZXRyb3BvbGUtcmVzZWF1LWlyaWdvLWd0ZnMtZ3Rmcy1ydC1zaXJpXzY5MDYxMTUaQWZyLWFuZ2Vycy1sb2lyZS1tZXRyb3BvbGUtcmVzZWF1LWlyaWdvLWd0ZnMtZ3Rmcy1ydC1zaXJpX1JFUFVCTElRIYAk7NtJvEdAKU/QJodPuuG/MkFmci1hbmdlcnMtbG9pcmUtbWV0cm9wb2xlLXJlc2VhdS1pcmlnby1ndGZzLWd0ZnMtcnQtc2lyaV9QQ09VQkUtRTkj/IugMbtHQEGEfqZetwjhv0jwg8fXBlC4isfXBloDQlVTYAEKexpBZnItYW5nZXJzLWxvaXJlLW1ldHJvcG9sZS1yZXNlYXUtaXJpZ28tZ3Rmcy1ndGZzLXJ0LXNpcmlfUENPVUJFLUUhI/yLoDG7R0AphH6mXrcI4b85l/+Qfvu6R0BBQj7o2az64L9IsIvH1wZQoI3H1wZaBFdBTEtgAQ==",
+   "legs": [
+    {
+     "mode": "WALK",
+     "from": {
+      "name": "START",
+      "lat": 47.4712,
+      "lon": -0.5518,
+      "tz": "Europe/Paris",
+      "departure": "2026-11-09T12:51:00Z",
+      "scheduledDeparture": "2026-11-09T12:51:00Z"
+     },
+     "to": {
+      "name": "République",
+      "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_REPUBLIQ",
+      "lat": 47.47100399999999,
+      "lon": -0.5539930000000001,
+      "tz": "Europe/Paris",
+      "arrival": "2026-11-09T12:55:00Z",
+      "scheduledArrival": "2026-11-09T12:55:00Z",
+      "stopCode": "30691",
+      "modes": [
+       "BUS"
+      ]
+     },
+     "duration": 240,
+     "startTime": "2026-11-09T12:51:00Z",
+     "endTime": "2026-11-09T12:55:00Z",
+     "scheduledStartTime": "2026-11-09T12:51:00Z",
+     "scheduledEndTime": "2026-11-09T12:55:00Z",
+     "realTime": false,
+     "scheduled": false,
+     "distance": 232.0,
+     "legGeometry": {
+      "points": "_glpyAdrt`@{A|A??o@hBsJvJ??hB|D`EzK??nB^??|BfJ??v@zC??rLzQ??bEnIPZ??j@dA??U`AkErD??Nr@??Rt@??Tt@??FV??r@bAMjA??NH??n@^??t@`@??NF??}EdVC~@??On@??Ox@??]lB??LzA??[R??GF",
+      "precision": 6,
+      "length": 58
+     }
+    },
+    {
+     "mode": "BUS",
+     "from": {
+      "name": "République",
+      "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_REPUBLIQ",
+      "lat": 47.47100399999999,
+      "lon": -0.5539930000000001,
+      "tz": "Europe/Paris",
+      "departure": "2026-11-09T12:55:00Z",
+      "scheduledDeparture": "2026-11-09T12:52:00Z",
+      "stopCode": "30691",
+      "cancelled": false,
+      "modes": [
+       "BUS"
+      ]
+     },
+     "to": {
+      "name": "Coubertin",
+      "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_PCOUBE-E",
+      "lat": 47.462452000000006,
+      "lon": -0.532314,
+      "tz": "Europe/Paris",
+      "arrival": "2026-11-09T13:08:00Z",
+      "scheduledArrival": "2026-11-09T13:06:00Z",
+      "stopCode": "6322",
+      "cancelled": false,
+      "modes": [
+       "BUS"
+      ]
+     },
+     "duration": 780,
+     "startTime": "2026-11-09T12:55:00Z",
+     "endTime": "2026-11-09T13:08:00Z",
+     "scheduledStartTime": "2026-11-09T12:52:00Z",
+     "scheduledEndTime": "2026-11-09T13:06:00Z",
+     "realTime": true,
+     "scheduled": true,
+     "interlineWithPreviousLeg": false,
+     "headsign": "ST-SYLVAIN St-Aubin La Salle",
+     "routeId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_07",
+     "directionId": "0",
+     "routeColor": "ae0f0a",
+     "routeTextColor": "ffffff",
+     "routeType": 3,
+     "agencyName": "IRIGO",
+     "agencyFareUrl": "",
+     "agencyId": "IRIGO",
+     "tripId": "20261109_13:08_fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_6906115",
+     "routeShortName": "7",
+     "routeLongName": "MONTREUIL-JUIGNÉ Béné - ST-SYLVAIN St-Aubin La Salle",
+     "tripShortName": "",
+     "displayName": "7",
+     "cancelled": false,
+     "intermediateStops": [
+      {
+       "name": "Ste-Croix",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_SAICRO-E",
+       "lat": 47.469863999999994,
+       "lon": -0.554963,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T12:56:00Z",
+       "departure": "2026-11-09T12:56:00Z",
+       "scheduledArrival": "2026-11-09T12:53:00Z",
+       "scheduledDeparture": "2026-11-09T12:53:00Z",
+       "stopCode": "20081",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      },
+      {
+       "name": "Office de Tourisme",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_OFFTOU-E",
+       "lat": 47.46918,
+       "lon": -0.557585,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T12:57:00Z",
+       "departure": "2026-11-09T12:57:00Z",
+       "scheduledArrival": "2026-11-09T12:53:00Z",
+       "scheduledDeparture": "2026-11-09T12:53:00Z",
+       "stopCode": "3776",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      },
+      {
+       "name": "Roi René",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_ROIRENE",
+       "lat": 47.46817800000001,
+       "lon": -0.5578200000000001,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T12:58:00Z",
+       "departure": "2026-11-09T12:58:00Z",
+       "scheduledArrival": "2026-11-09T12:54:00Z",
+       "scheduledDeparture": "2026-11-09T12:54:00Z",
+       "stopCode": "ROIRENE",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      },
+      {
+       "name": "Lices",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_LICES-E",
+       "lat": 47.466946,
+       "lon": -0.5546500000000001,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T12:59:00Z",
+       "departure": "2026-11-09T12:59:00Z",
+       "scheduledArrival": "2026-11-09T12:56:00Z",
+       "scheduledDeparture": "2026-11-09T12:57:00Z",
+       "stopCode": "669316",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      },
+      {
+       "name": "André Leroy",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_ANLERO-E",
+       "lat": 47.464625999999996,
+       "lon": -0.5490280000000001,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T13:02:00Z",
+       "departure": "2026-11-09T13:02:00Z",
+       "scheduledArrival": "2026-11-09T13:00:00Z",
+       "scheduledDeparture": "2026-11-09T13:00:00Z",
+       "stopCode": "14800",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      },
+      {
+       "name": "Michelet",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_MICHEL-E",
+       "lat": 47.46286,
+       "lon": -0.544243,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T13:03:00Z",
+       "departure": "2026-11-09T13:03:00Z",
+       "scheduledArrival": "2026-11-09T13:01:00Z",
+       "scheduledDeparture": "2026-11-09T13:01:00Z",
+       "stopCode": "5053",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      },
+      {
+       "name": "Bourgonnier",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_BOURGO-E",
+       "lat": 47.46161,
+       "lon": -0.5411950000000001,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T13:04:00Z",
+       "departure": "2026-11-09T13:04:00Z",
+       "scheduledArrival": "2026-11-09T13:02:00Z",
+       "scheduledDeparture": "2026-11-09T13:02:00Z",
+       "stopCode": "BOURGO-E",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      },
+      {
+       "name": "Volney",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_VOLNEY-E",
+       "lat": 47.460567,
+       "lon": -0.5386390000000001,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T13:05:00Z",
+       "departure": "2026-11-09T13:05:00Z",
+       "scheduledArrival": "2026-11-09T13:03:00Z",
+       "scheduledDeparture": "2026-11-09T13:03:00Z",
+       "stopCode": "29618",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      },
+      {
+       "name": "Madeleine",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_MADELE-E",
+       "lat": 47.459044999999996,
+       "lon": -0.535589,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T13:06:00Z",
+       "departure": "2026-11-09T13:06:00Z",
+       "scheduledArrival": "2026-11-09T13:04:00Z",
+       "scheduledDeparture": "2026-11-09T13:04:00Z",
+       "stopCode": "10442",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      },
+      {
+       "name": "Jean Bouin",
+       "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_JEBOUI-E",
+       "lat": 47.458999999999996,
+       "lon": -0.532813,
+       "tz": "Europe/Paris",
+       "arrival": "2026-11-09T13:07:00Z",
+       "departure": "2026-11-09T13:07:00Z",
+       "scheduledArrival": "2026-11-09T13:05:00Z",
+       "scheduledDeparture": "2026-11-09T13:05:00Z",
+       "stopCode": "32451",
+       "cancelled": false,
+       "modes": [
+        "BUS"
+       ]
+      }
+     ],
+     "legGeometry": {
+      "points": "wxkpyAp_y`@gAuA?GfAqCrCiOxDiSdCeJbBlCz^xl@lIzNX~AZ`CpAnHNlC|@tHzE~O|@|C`H|VhBbGd@vAv@~EzDd\\lEl^lE`ZtEj[D~@jClTj@|A|@vA`@|@|BfDlE~GvDdHrA~CnAkA|A@|@Rt@x@p@zAvQon@vp@k_ChCeK~CmJnNig@bAyDjFiRd[idA~BmGMoBlIyVnAkIp@iK`Msa@n^usAlZadAhAiDnAqEnA`@dADp@A`AObA[jAiA\\aARa@`@iCGsA?sAEmASuBSs@Sm@_@o@}@{@dCyH~EmP~d@gyAni@ygB|BuGbQqk@`H_UzLcb@|Xo{@`Rmm@z@aDrGiTpV{x@rLw_@tTat@tEwNzJk\\`CaJ`CaJbBsAzAkG`HuUjFeQvAkEfA}CrAkCrF_JfIyMfDcGrU}d@~NyYnT{a@bZoi@nQs\\~CeIf@yCvBgDgQeA{M{@oPmAud@wDeAKed@wDed@}CsVmBu^aCsFcByFg@oTcBoL[sNcA{P}AFkB",
+      "precision": 6,
+      "length": 127
+     }
+    },
+    {
+     "mode": "WALK",
+     "from": {
+      "name": "Coubertin",
+      "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_PCOUBE-E",
+      "lat": 47.462452000000006,
+      "lon": -0.532314,
+      "tz": "Europe/Paris",
+      "arrival": "2026-11-09T13:08:00Z",
+      "departure": "2026-11-09T13:08:00Z",
+      "scheduledArrival": "2026-11-09T13:06:00Z",
+      "scheduledDeparture": "2026-11-09T13:08:00Z",
+      "stopCode": "6322",
+      "cancelled": false,
+      "modes": [
+       "BUS"
+      ]
+     },
+     "to": {
+      "name": "END",
+      "lat": 47.4608,
+      "lon": -0.5306,
+      "tz": "Europe/Paris",
+      "arrival": "2026-11-09T13:12:00Z",
+      "scheduledArrival": "2026-11-09T13:12:00Z"
+     },
+     "duration": 240,
+     "startTime": "2026-11-09T13:08:00Z",
+     "endTime": "2026-11-09T13:12:00Z",
+     "scheduledStartTime": "2026-11-09T13:08:00Z",
+     "scheduledEndTime": "2026-11-09T13:12:00Z",
+     "realTime": false,
+     "scheduled": false,
+     "distance": 249.0,
+     "legGeometry": {
+      "points": "}a{oyAjqn_@nC\\pGnA??bP~@xA@|AEnASfAW??r@{@r@sA??dAr@??t@h@??zBlA??|Ax@??PsGT{BnIcb@lHe`@zDaWd@oI",
+      "precision": 6,
+      "length": 27
+     }
+    }
+   ]
+  }
+ ]
+}

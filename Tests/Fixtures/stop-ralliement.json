@@ -1,0 +1,27 @@
+{
+ "place": {
+  "name": "Ralliement",
+  "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_1RALL",
+  "lat": 47.47113,
+  "lon": -0.551664,
+  "tz": "Europe/Paris",
+  "stopCode": "1RALL",
+  "modes": [
+   "TRAM"
+  ]
+ },
+ "routes": [
+  {
+   "routeId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_C",
+   "routeShortName": "C",
+   "routeLongName": "Roseraie - Belle-Beille Campus",
+   "mode": "TRAM",
+   "agencyId": "IRIGO",
+   "agencyName": "IRIGO",
+   "routeColor": "379e32",
+   "routeTextColor": "ffffff",
+   "routeType": 0,
+   "agencyUrl": "https://www.irigo.fr/"
+  }
+ ]
+}

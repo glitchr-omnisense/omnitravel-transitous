@@ -1,0 +1,39 @@
+[
+ {
+  "type": "STOP",
+  "name": "Ralliement",
+  "id": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_1RALL",
+  "lat": 47.47113,
+  "lon": -0.551664,
+  "country": "FR",
+  "zip": "49000;49100",
+  "tz": "Europe/Paris",
+  "modes": [
+   "TRAM"
+  ]
+ },
+ {
+  "type": "STOP",
+  "name": "Rallitie P",
+  "id": "fi-fintraffic_365967",
+  "lat": 60.377953,
+  "lon": 24.675074000000002,
+  "country": "FI",
+  "tz": "Europe/Helsinki",
+  "modes": [
+   "BUS"
+  ]
+ },
+ {
+  "type": "STOP",
+  "name": "Rajaniementie E",
+  "id": "fi-fintraffic_324617",
+  "lat": 62.365970000000004,
+  "lon": 25.651915000000006,
+  "country": "FI",
+  "tz": "Europe/Helsinki",
+  "modes": [
+   "BUS"
+  ]
+ }
+]

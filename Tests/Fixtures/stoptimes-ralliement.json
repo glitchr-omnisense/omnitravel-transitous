@@ -1,0 +1,225 @@
+{
+ "stopTimes": [
+  {
+   "place": {
+    "name": "Ralliement",
+    "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_2RALL",
+    "lat": 47.471222,
+    "lon": -0.5516010000000001,
+    "tz": "Europe/Paris",
+    "arrival": "2026-11-09T12:35:00Z",
+    "departure": "2026-11-09T12:35:00Z",
+    "scheduledArrival": "2026-11-09T12:33:00Z",
+    "scheduledDeparture": "2026-11-09T12:33:00Z",
+    "stopCode": "2RALL",
+    "cancelled": false,
+    "modes": [
+     "TRAM"
+    ]
+   },
+   "mode": "TRAM",
+   "realTime": true,
+   "headsign": "Belle-Beille Campus",
+   "agencyId": "IRIGO",
+   "agencyName": "IRIGO",
+   "routeId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_C",
+   "directionId": "0",
+   "routeColor": "379e32",
+   "routeTextColor": "ffffff",
+   "tripId": "20261109_13:17_fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_6905391",
+   "routeType": 0,
+   "routeShortName": "C",
+   "routeLongName": "Roseraie - Belle-Beille Campus",
+   "tripShortName": "",
+   "displayName": "C",
+   "cancelled": false,
+   "tripCancelled": false
+  },
+  {
+   "place": {
+    "name": "Ralliement",
+    "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_1RALL",
+    "lat": 47.47113,
+    "lon": -0.551664,
+    "tz": "Europe/Paris",
+    "arrival": "2026-11-09T12:39:00Z",
+    "departure": "2026-11-09T12:39:00Z",
+    "scheduledArrival": "2026-11-09T12:39:00Z",
+    "scheduledDeparture": "2026-11-09T12:39:00Z",
+    "stopCode": "1RALL",
+    "cancelled": false,
+    "modes": [
+     "TRAM"
+    ]
+   },
+   "mode": "TRAM",
+   "realTime": true,
+   "headsign": "Roseraie",
+   "agencyId": "IRIGO",
+   "agencyName": "IRIGO",
+   "routeId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_C",
+   "directionId": "1",
+   "routeColor": "379e32",
+   "routeTextColor": "ffffff",
+   "tripId": "20261109_13:20_fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_6905364",
+   "routeType": 0,
+   "routeShortName": "C",
+   "routeLongName": "Roseraie - Belle-Beille Campus",
+   "tripShortName": "",
+   "displayName": "C",
+   "cancelled": false,
+   "tripCancelled": false
+  },
+  {
+   "place": {
+    "name": "Ralliement",
+    "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_2RALL",
+    "lat": 47.471222,
+    "lon": -0.5516010000000001,
+    "tz": "Europe/Paris",
+    "arrival": "2026-11-09T12:44:00Z",
+    "departure": "2026-11-09T12:44:00Z",
+    "scheduledArrival": "2026-11-09T12:44:00Z",
+    "scheduledDeparture": "2026-11-09T12:44:00Z",
+    "stopCode": "2RALL",
+    "cancelled": false,
+    "modes": [
+     "TRAM"
+    ]
+   },
+   "mode": "TRAM",
+   "realTime": true,
+   "headsign": "Belle-Beille Campus",
+   "agencyId": "IRIGO",
+   "agencyName": "IRIGO",
+   "routeId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_C",
+   "directionId": "0",
+   "routeColor": "379e32",
+   "routeTextColor": "ffffff",
+   "tripId": "20261109_13:29_fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_6905392",
+   "routeType": 0,
+   "routeShortName": "C",
+   "routeLongName": "Roseraie - Belle-Beille Campus",
+   "tripShortName": "",
+   "displayName": "C",
+   "cancelled": false,
+   "tripCancelled": false
+  },
+  {
+   "place": {
+    "name": "Ralliement",
+    "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_1RALL",
+    "lat": 47.47113,
+    "lon": -0.551664,
+    "tz": "Europe/Paris",
+    "arrival": "2026-11-09T12:50:00Z",
+    "departure": "2026-11-09T12:50:00Z",
+    "scheduledArrival": "2026-11-09T12:50:00Z",
+    "scheduledDeparture": "2026-11-09T12:50:00Z",
+    "stopCode": "1RALL",
+    "cancelled": false,
+    "modes": [
+     "TRAM"
+    ]
+   },
+   "mode": "TRAM",
+   "realTime": false,
+   "headsign": "Roseraie",
+   "agencyId": "IRIGO",
+   "agencyName": "IRIGO",
+   "routeId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_C",
+   "directionId": "1",
+   "routeColor": "379e32",
+   "routeTextColor": "ffffff",
+   "tripId": "20261109_13:32_fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_6905365",
+   "routeType": 0,
+   "routeShortName": "C",
+   "routeLongName": "Roseraie - Belle-Beille Campus",
+   "tripShortName": "",
+   "displayName": "C",
+   "cancelled": false,
+   "tripCancelled": false
+  },
+  {
+   "place": {
+    "name": "Ralliement",
+    "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_2RALL",
+    "lat": 47.471222,
+    "lon": -0.5516010000000001,
+    "tz": "Europe/Paris",
+    "arrival": "2026-11-09T12:56:00Z",
+    "departure": "2026-11-09T12:56:00Z",
+    "scheduledArrival": "2026-11-09T12:56:00Z",
+    "scheduledDeparture": "2026-11-09T12:56:00Z",
+    "stopCode": "2RALL",
+    "cancelled": false,
+    "modes": [
+     "TRAM"
+    ]
+   },
+   "mode": "TRAM",
+   "realTime": true,
+   "headsign": "Belle-Beille Campus",
+   "agencyId": "IRIGO",
+   "agencyName": "IRIGO",
+   "routeId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_C",
+   "directionId": "0",
+   "routeColor": "379e32",
+   "routeTextColor": "ffffff",
+   "tripId": "20261109_13:40_fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_6905393",
+   "routeType": 0,
+   "routeShortName": "C",
+   "routeLongName": "Roseraie - Belle-Beille Campus",
+   "tripShortName": "",
+   "displayName": "C",
+   "cancelled": false,
+   "tripCancelled": false
+  },
+  {
+   "place": {
+    "name": "Ralliement",
+    "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_1RALL",
+    "lat": 47.47113,
+    "lon": -0.551664,
+    "tz": "Europe/Paris",
+    "arrival": "2026-11-09T13:01:00Z",
+    "departure": "2026-11-09T13:01:00Z",
+    "scheduledArrival": "2026-11-09T13:01:00Z",
+    "scheduledDeparture": "2026-11-09T13:01:00Z",
+    "stopCode": "1RALL",
+    "cancelled": true,
+    "modes": [
+     "TRAM"
+    ]
+   },
+   "mode": "TRAM",
+   "realTime": true,
+   "headsign": "Roseraie",
+   "agencyId": "IRIGO",
+   "agencyName": "IRIGO",
+   "routeId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_C",
+   "directionId": "1",
+   "routeColor": "379e32",
+   "routeTextColor": "ffffff",
+   "tripId": "20261109_13:43_fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_6905366",
+   "routeType": 0,
+   "routeShortName": "C",
+   "routeLongName": "Roseraie - Belle-Beille Campus",
+   "tripShortName": "",
+   "displayName": "C",
+   "cancelled": true,
+   "tripCancelled": false
+  }
+ ],
+ "place": {
+  "name": "Ralliement",
+  "stopId": "fr-angers-loire-metropole-reseau-irigo-gtfs-gtfs-rt-siri_1RALL",
+  "lat": 47.47113,
+  "lon": -0.551664,
+  "tz": "Europe/Paris",
+  "stopCode": "1RALL",
+  "modes": [
+   "TRAM"
+  ]
+ }
+}

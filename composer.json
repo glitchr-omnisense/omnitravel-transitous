@@ -1,0 +1,44 @@
+{
+    "name": "omnitravel/transitous",
+    "type": "library",
+    "description": "Omnitravel's Transitous, under any PHP host, with no key: journeys from A to B, a stop's next departures and arrivals in real time (delays, tracks, cancellations), a stop and its lines, the stops near a point or by name - across the open timetables Transitous gathers worldwide, through its MOTIS 2 API, with the User-Agent its usage policy asks.",
+    "keywords": ["transitous", "motis", "transit", "public-transport", "journey-planner", "departures", "real-time", "open-data", "framework-agnostic", "omnitravel"],
+    "homepage": "https://github.com/glitchr-omnisense/omnitravel-transitous",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "omnisense/omnitravel": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnitravel\\Transitous\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnitravel\\Transitous\\Tests\\": "Tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-1.x": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
