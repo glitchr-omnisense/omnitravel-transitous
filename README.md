@@ -12,8 +12,40 @@ worldwide, with their real-time feeds and OpenStreetMap for the walks.
 - **a stop and its lines** (`/api/v6/stop`), **the stops near a point** (`/api/v6/map/stops`),
   **stops by name** (`/api/v1/geocode`).
 
+## Install and a first call
+
+```sh
+composer require omnitravel/transitous
+```
+
+No account and no request for this first call: Transitous' answer is recorded
+(`Omnitravel\Testing\RecordedHttpClient` answers in place of the API). A real call needs no
+account either, only an HTTP client (`symfony/http-client`, which the package requires) and a
+User-Agent naming the application and a contact; the use must stay non-commercial (below).
+
 ```php
-use Omnitravel\Model\DepartureQuery;
+<?php
+
+require __DIR__.'/vendor/autoload.php';
+
+use Omnitravel\Testing\RecordedHttpClient;
+use Omnitravel\Transitous\TransitousFactory;
+
+// Transitous' answer to a search by name, recorded: nothing leaves the process. HttpClient::create() for a real call.
+$http = RecordedHttpClient::routes([
+    '~^GET https://api\.transitous\.org/api/v1/geocode\?text=Ralliement~' => [200, '[{"type": "STOP", "name": "Ralliement", "id": "fr-angers_1RALL", "lat": 47.47113, "lon": -0.551664, "tz": "Europe/Paris", "modes": ["TRAM"]}]'],
+]);
+$transitous = (new TransitousFactory($http))->create(['user_agent' => 'MySite/1.0 (https://example.org; travel@example.org)']);
+
+foreach ($transitous->searchStops('Ralliement', 1) as $stop) {
+    echo $stop->name, ' ', $stop->id, ' ', $stop->modes[0]->value, "\n";   // Ralliement fr-angers_1RALL tram
+}
+```
+
+With a real client, a stop's next departures:
+
+```php
+use Omnitravel\Model\{Coordinates, DepartureQuery};
 use Omnitravel\Transitous\TransitousFactory;
 
 $transitous = (new TransitousFactory($httpClient))->create([
